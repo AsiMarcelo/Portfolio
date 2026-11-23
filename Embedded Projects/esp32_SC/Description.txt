@@ -1,0 +1,3 @@
+Using an ESP 23, YL-38 and YL-69 board and soil moisture sensor to calculate the soil conductivity measure in decisiemens.
+
+It outputs the measured soil conductivity through an I2C 16x2 LCD Display with audio outputs through a buzzer which varies depending on their conductance level.
