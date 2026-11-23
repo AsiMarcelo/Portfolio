@@ -1,0 +1,3 @@
+The project is ran on an Arduino Uno R3. it is a simple ping pong game with the character having 3 lives, and difficulty ramping, along with includes border collision.
+
+The inputs are from a 5-pin joystick, and its output onto a .96" OLED screen.
