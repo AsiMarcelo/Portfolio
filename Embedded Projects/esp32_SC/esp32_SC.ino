@@ -1,6 +1,6 @@
 //DOIT ESP32 DEVKIT V1
 // Sketch for Soil Conductance
-//Okayna: LCD, Buzzer, Sensor Calib ñ 😃
+//Okayna: LCD, Buzzer, Sensor Calib ñ 
 
 
 #include <Wire.h> 
@@ -20,7 +20,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  Wire.begin(21, 22); //establishing the SCL and SDA pins for LCD
+  Wire.begin(21, 22); 
   Serial.begin(9600);
 
   pinMode(sens_pin, INPUT); //pinMode set to input mode
